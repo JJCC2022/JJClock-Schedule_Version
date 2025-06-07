@@ -1,4 +1,4 @@
-﻿using Clock.Properties;
+using Clock.Properties;
 using System;
 using System.Drawing;
 using System.Drawing.Drawing2D;
@@ -171,16 +171,15 @@ namespace Clock
                 if (H == "11" & M == "20") downclass = 55;
                 if (H == "14" & M == "00") downclass = 40;
                 if (H == "14" & M == "50") downclass = 40;
-                if (H == "15" & M == "00") downclass = 40;
                 if (H == "15" & M == "40") downclass = 40;
                 if (H == "16" & M == "30") downclass = 40;
                 if (H == "18" & M == "00") downclass = 60;
                 if (H == "19" & M == "10") downclass = 60;
                 label1.Text = "Weekday schedule";
                 progressBar1.Maximum = 740;//The minutes in your school per day.
-                if (DateTime.Now.Hour * 60 + DateTime.Now.Minute - 470 >= 0 & DateTime.Now.Hour * 60 + DateTime.Now.Minute - 470 <= 740)//470 means:The minutes before you go to shcool from 0:00.
+                if (DateTime.Now.Hour * 60 + DateTime.Now.Minute - 450 >= 0 & DateTime.Now.Hour * 60 + DateTime.Now.Minute - 450 <= 740)//450 means:The minutes before you go to shcool from 0:00.
                 {
-                    progressBar1.Value = DateTime.Now.Hour * 60 + DateTime.Now.Minute - 470;
+                    progressBar1.Value = DateTime.Now.Hour * 60 + DateTime.Now.Minute - 450;
                 }
                 else progressBar1.Value = 0;
             }
@@ -191,7 +190,7 @@ namespace Clock
                 if (H == "09" & M == "10") downclass = 40;
                 if (H == "10" & M == "10") downclass = 40;
                 if (H == "11" & M == "00") downclass = 40;
-                if (H == "14" & M == "00") downclass = 30;
+                if (H == "14" & M == "00") downclass = 40;
                 if (H == "14" & M == "50") downclass = 40;
                 if (H == "15" & M == "40") downclass = 40;
                 if (H == "16" & M == "30") downclass = 40;
@@ -199,15 +198,15 @@ namespace Clock
                 if (H == "18" & M == "30") downclass = 40;
                 progressBar1.Maximum = 680;
                 label1.Text = "Weekend schedule";
-                if (DateTime.Now.Hour * 60 + DateTime.Now.Minute - 470 >= 0 & DateTime.Now.Hour * 60 + DateTime.Now.Minute - 470 <= 680)
+                if (DateTime.Now.Hour * 60 + DateTime.Now.Minute - 450 >= 0 & DateTime.Now.Hour * 60 + DateTime.Now.Minute - 450 <= 680)
                 {
-                    progressBar1.Value = DateTime.Now.Hour * 60 + DateTime.Now.Minute - 470;
+                    progressBar1.Value = DateTime.Now.Hour * 60 + DateTime.Now.Minute - 450;
                 }
                 else progressBar1.Value = 0;
             }
             if (downclass > 0)
             {
-                label1.Text = "There's" + downclass + "minute(s) left until class ends.";
+                label1.Text =downclass + "minutes left";
                 if (!isMouseDown) this.Opacity = 0.7;
                 Is40 = true;
             }
@@ -219,7 +218,7 @@ namespace Clock
             {
                 if (downclass == 0)
                 {
-                    label1.Text = "Class is over.";
+                    label1.Text = "Class is over";
                 }
             }
             if (DateTime.Now.Second == 0) if (Is40 == true)
@@ -237,7 +236,7 @@ namespace Clock
                 }
             if (downclass < 0)
             {
-                label1.Text = "Class just ended" + (-downclass) + "minute(s) ago.";
+                label1.Text = "Class ended " + (-downclass) + "minute(s) ago";
             }
             if (DateTime.Now.Second == 2)
             {
@@ -387,7 +386,7 @@ namespace Clock
         {
             isfold = false;
             MessageBox.Show("JJClock-Schedule_Version V4.1.9" +
-                "\r\n\r\nBy JJCC   Official Website：jjcc.wz.hwdlszywz.net  \r\nThanks for using this software.You can get the code on Github.", "JJClock-Schedule_Version  About");
+                "\r\n\r\nBy 蒹葭苍苍JJCC   Official Website：jjcc.wz.hwdlszywz.net  \r\nThanks for using this software.You can get the code on Github.", "JJClock-Schedule_Version  About");
         }
 
         private void 退出ToolStripMenuItem_Click(object sender, EventArgs e)
