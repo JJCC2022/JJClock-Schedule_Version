@@ -1,4 +1,4 @@
-﻿namespace Clock
+namespace Clock
 {
     partial class Clock
     {
@@ -92,7 +92,7 @@
             this.展开菜单ToolStripMenuItem,
             this.退出ToolStripMenuItem});
             this.contextMenuStrip1.Name = "contextMenuStrip1";
-            this.contextMenuStrip1.Size = new System.Drawing.Size(199, 130);
+            this.contextMenuStrip1.Size = new System.Drawing.Size(249, 163);
             // 
             // 皮肤ToolStripMenuItem
             // 
@@ -102,43 +102,43 @@
             this.炫酷坤ToolStripMenuItem});
             this.皮肤ToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("皮肤ToolStripMenuItem.Image")));
             this.皮肤ToolStripMenuItem.Name = "皮肤ToolStripMenuItem";
-            this.皮肤ToolStripMenuItem.Size = new System.Drawing.Size(198, 40);
+            this.皮肤ToolStripMenuItem.Size = new System.Drawing.Size(248, 40);
             this.皮肤ToolStripMenuItem.Text = "Skins";
             // 
             // 搪瓷白ToolStripMenuItem
             // 
             this.搪瓷白ToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("搪瓷白ToolStripMenuItem.Image")));
             this.搪瓷白ToolStripMenuItem.Name = "搪瓷白ToolStripMenuItem";
-            this.搪瓷白ToolStripMenuItem.Size = new System.Drawing.Size(270, 42);
-            this.搪瓷白ToolStripMenuItem.Text = "White/Black";
+            this.搪瓷白ToolStripMenuItem.Size = new System.Drawing.Size(292, 42);
+            this.搪瓷白ToolStripMenuItem.Text = "china white / black";
             this.搪瓷白ToolStripMenuItem.Click += new System.EventHandler(this.搪瓷白ToolStripMenuItem_Click);
             // 
             // 草莓粉ToolStripMenuItem
             // 
             this.草莓粉ToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("草莓粉ToolStripMenuItem.Image")));
             this.草莓粉ToolStripMenuItem.Name = "草莓粉ToolStripMenuItem";
-            this.草莓粉ToolStripMenuItem.Size = new System.Drawing.Size(270, 42);
-            this.草莓粉ToolStripMenuItem.Text = "Pink";
+            this.草莓粉ToolStripMenuItem.Size = new System.Drawing.Size(292, 42);
+            this.草莓粉ToolStripMenuItem.Text = "apple pink";
             this.草莓粉ToolStripMenuItem.Click += new System.EventHandler(this.草莓粉ToolStripMenuItem_Click);
             // 
             // 炫酷坤ToolStripMenuItem
             // 
             this.炫酷坤ToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("炫酷坤ToolStripMenuItem.Image")));
             this.炫酷坤ToolStripMenuItem.Name = "炫酷坤ToolStripMenuItem";
-            this.炫酷坤ToolStripMenuItem.Size = new System.Drawing.Size(270, 42);
+            this.炫酷坤ToolStripMenuItem.Size = new System.Drawing.Size(292, 42);
             this.炫酷坤ToolStripMenuItem.Text = "Idol Producer";
             this.炫酷坤ToolStripMenuItem.Click += new System.EventHandler(this.炫酷坤ToolStripMenuItem_Click);
             // 
             // toolStripSeparator1
             // 
             this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(195, 6);
+            this.toolStripSeparator1.Size = new System.Drawing.Size(245, 6);
             // 
             // 展开菜单ToolStripMenuItem
             // 
             this.展开菜单ToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("展开菜单ToolStripMenuItem.Image")));
             this.展开菜单ToolStripMenuItem.Name = "展开菜单ToolStripMenuItem";
-            this.展开菜单ToolStripMenuItem.Size = new System.Drawing.Size(198, 40);
+            this.展开菜单ToolStripMenuItem.Size = new System.Drawing.Size(248, 40);
             this.展开菜单ToolStripMenuItem.Text = "Open menu";
             this.展开菜单ToolStripMenuItem.Click += new System.EventHandler(this.展开菜单ToolStripMenuItem_Click);
             // 
@@ -146,7 +146,7 @@
             // 
             this.退出ToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("退出ToolStripMenuItem.Image")));
             this.退出ToolStripMenuItem.Name = "退出ToolStripMenuItem";
-            this.退出ToolStripMenuItem.Size = new System.Drawing.Size(198, 40);
+            this.退出ToolStripMenuItem.Size = new System.Drawing.Size(248, 40);
             this.退出ToolStripMenuItem.Text = "Exit";
             this.退出ToolStripMenuItem.Click += new System.EventHandler(this.退出ToolStripMenuItem_Click);
             // 
